@@ -1,0 +1,143 @@
+body {
+  margin: 0px;
+}
+.navbar {
+  height: 68px;
+  width: 100vw;
+  background-color: #eff1f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  max-width: 1300px;
+  display: flex;
+  gap: 20px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 48px;
+  /* height: 48px; */
+}
+
+.flex {
+  display: flex;
+}
+.input-icon {
+  display: flex;
+  background-color: white;
+  border: 2px solid #002f34;
+  border-radius: 3px;
+  height: 44px;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+input {
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  color: #002f34;
+  font-size: 16px;
+}
+input:focus + .arrow {
+  transform: rotate(180deg);
+  transition-duration: 0.5s;
+}
+.input-icon:has(input:focus) {
+  border: 2px solid #23e5db;
+}
+.search {
+  /* sadsada */
+  height: 44px;
+  background-color: #002f34;
+  color: white;
+}
+.input-search {
+  width: 634px;
+}
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-decoration: underline;
+  font-weight: bold;
+  color: #002f34;
+  height: 48px;
+}
+.jual {
+  display: flex;
+  height: 48px;
+  width: 109px;
+}
+.contentparent {
+  width: 1300px;
+}
+.judul {
+  width: 95%;
+}
+.rekomen {
+  color: #002f34;
+  font-size: 25px;
+  text-align: left;
+  width: 98%;
+}
+.grid {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: 325px 325px 325px 325px;
+}
+.penampung {
+  display: flex;
+  justify-content: center;
+}
+.bungkus {
+  border: 1px solid grey;
+}
+.productimage {
+  max-width: 300px;
+  max-height: 200px;
+  width: 300px;
+  height: 250px;
+  padding-bottom: 10px;
+}
+.productimage img {
+  width: 100%;
+  height: 95%;
+  padding-top: 10px;
+}
+.bungkus2 {
+  text-align: left;
+  padding-left: 20px;
+  border-left: 7px solid #ffce32;
+}
+.price {
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+}
+.tahun {
+  font-size: 15px;
+  color: grey;
+}
+.closing {
+  padding-top: 20px;
+}
+.kotak1 {
+  font-size: 15px;
+  border: 1px solid #002f34;
+  width: 100px;
+  height: 50px;
+  font-weight: bolder;
+  color: #002f34;
+  border-radius: 4px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
